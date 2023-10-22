@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1698017821703,
+  "index": "/atividadewebconf01/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/atividadewebconf01/favicon.ico",
+        "/atividadewebconf01/index.html",
+        "/atividadewebconf01/main.87b7ed9c14a06aa7.js",
+        "/atividadewebconf01/manifest.webmanifest",
+        "/atividadewebconf01/polyfills.0e8d0be01c39b5ff.js",
+        "/atividadewebconf01/runtime.943b70c665ba1872.js",
+        "/atividadewebconf01/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/atividadewebconf01/assets/icons/icon-128x128.png",
+        "/atividadewebconf01/assets/icons/icon-144x144.png",
+        "/atividadewebconf01/assets/icons/icon-152x152.png",
+        "/atividadewebconf01/assets/icons/icon-192x192.png",
+        "/atividadewebconf01/assets/icons/icon-384x384.png",
+        "/atividadewebconf01/assets/icons/icon-512x512.png",
+        "/atividadewebconf01/assets/icons/icon-72x72.png",
+        "/atividadewebconf01/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/atividadewebconf01/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "/atividadewebconf01/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/atividadewebconf01/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/atividadewebconf01/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/atividadewebconf01/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/atividadewebconf01/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/atividadewebconf01/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "/atividadewebconf01/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/atividadewebconf01/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/atividadewebconf01/index.html": "699763b028ff77c4fdf64dcbe2158febb367b36b",
+    "/atividadewebconf01/main.87b7ed9c14a06aa7.js": "2322957923a187e3e08ed8ec66bc5cfc6c0ad628",
+    "/atividadewebconf01/manifest.webmanifest": "17956df8d60048dfff462f67ad61820c423e360b",
+    "/atividadewebconf01/polyfills.0e8d0be01c39b5ff.js": "70f0a20920210d1c5304952425a50c456af48362",
+    "/atividadewebconf01/runtime.943b70c665ba1872.js": "92a2ff4409aa21d3ace4fa40e8d68f6349411c6b",
+    "/atividadewebconf01/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
