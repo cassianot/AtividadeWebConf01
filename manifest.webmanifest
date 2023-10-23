@@ -1,9 +1,14 @@
 {
   "name": "AtividadeWebConf01",
+  "description": "App da Webconf01",
   "short_name": "AtividadeWebConf01",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
+  "orientation": "portrait",
+  "launch_handler": {
+    "client_mode": ["navigate-existing", "auto"]
+  },
   "scope": "./",
   "start_url": "./",
   "icons": [
